@@ -10867,18 +10867,59 @@ p.lead {
   font-size: 1.5rem;
 }
 
-#sideNav {
+#sideNav { 
   padding-left: 1rem;
   padding-right: 1rem;
+  background-color: #2a2a72; /* Deep blue background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  color: #f3f4f6; /* Light text color */
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition */
 }
+
+#sideNav { 
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #2a2a72; /* Deep blue background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color: #f3f4f6; /* Light text color for contrast */
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+}
+
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+  color: #ff7f50; /* Coral color on hover for visual feedback */
+  transform: scale(1.05); /* Slightly enlarge on hover for interactivity */
+}
+
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #d48a6e; /* Maintain original focus outline color */
+  box-shadow: 0 0 5px #d48a6e; /* Glow effect on focus for visibility */
 }
+
+#sideNav .navbar-toggler {
+  background-color: #ff6f61; /* Bright coral background for the toggler */
+  border-radius: 5px; /* Rounded corners for the toggler button */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#sideNav .navbar-toggler:hover {
+  background-color: #ff8c69; /* Lighter coral color on hover for interaction feedback */
+}
+
+
 
 @media (min-width: 992px) {
   #sideNav {
