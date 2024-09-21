@@ -3508,7 +3508,9 @@ textarea.form-control-lg {
 
 .btn-group,
 .btn-group-vertical {
-  position: relative;
+  position: absolute;
+  top: 100px;
+  left: 500px
   display: inline-flex;
   vertical-align: middle;
 }
