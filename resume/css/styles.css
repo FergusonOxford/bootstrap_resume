@@ -108,7 +108,7 @@ hr {
   margin: 1rem 0;
   color: inherit;
   border: 0;
-  border-top: 1px solid;
+  border-top: 200px solid;
   opacity: 0.25;
 }
 
@@ -10869,26 +10869,12 @@ p.lead {
   font-size: 1.5rem;
 }
 
-#sideNav { 
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background-color: #2a2a72; /* Deep blue background */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
-}
-
-#sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-  color: #f3f4f6; /* Light text color */
-  transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition */
 }
 
 #sideNav { 
   padding-left: 1rem;
   padding-right: 1rem;
-  background-color: #2a2a72; /* Deep blue background */
+  background-color: var(bs-blue); /* Deep blue background */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
 }
