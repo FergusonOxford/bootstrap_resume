@@ -71,7 +71,7 @@
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.5rem;
   --bs-border-radius-xl: 1rem;
-  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-2xl: 12rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #bd5d38;
   --bs-link-hover-color: #974a2d;
@@ -10975,7 +10975,7 @@ p.lead {
   margin-right: 1.5rem;
 }
 .social-icons .social-icon:last-child {
-  margin-right: 0;
+  margin-right: 5in;
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
